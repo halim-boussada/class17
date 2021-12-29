@@ -1,0 +1,26 @@
+#root {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.card {
+  border: 1px solid gray;
+  width: 300px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 7px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.container {
+  width: 30%;
+  margin-left: 25%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
